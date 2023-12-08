@@ -28,6 +28,31 @@
   color: #61dafb;
 }
 
+.Navbar-nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  background-color: red;
+}
+
+.Navbar-nav .list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+} 
+
+
+.map{
+  margin-top: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
