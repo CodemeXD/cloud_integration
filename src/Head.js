@@ -18,6 +18,8 @@ const Head = () => {
           </li>
         </ul>
       </nav>
+      <input type='text' placeholder='Search Products'/>
+      <button>Search</button>
       
     </div>
   );

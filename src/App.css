@@ -48,6 +48,69 @@
   justify-content: space-evenly;
 } 
 
+.grid{
+  background-image: url('https://thumbs.dreamstime.com/z/fashion-clothing-store-21951761.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 500px;
+  display: grid;
+}
+
+img{
+  
+}
+
+
+.flex{
+  display: flex;
+  justify-content: end;
+  margin-top: 152px;
+  margin-right: 5px;
+}
+
+.image img{
+  height: 300px;
+}
+
+.butt{
+  margin-right: 35%;
+  
+}
+
+.butt1{
+  background-color: green;
+  color: whitesmoke;
+  height: 50px;
+  margin-right: 5px;
+  border: limegreen;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+.butt2{
+  background-color: maroon;
+  color: whitesmoke;
+  height: 50px;
+  border: maroon;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+.butt1:hover{
+  background-color: blue;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.butt2:hover{
+  background-color: whitesmoke;
+  color: goldenrod;
+  font-weight: bold;
+}
+
 
 .map{
   margin-top: 20px;
