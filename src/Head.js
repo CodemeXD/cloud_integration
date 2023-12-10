@@ -6,8 +6,9 @@ const Head = () => {
     <div className='Navbar-nav'>
 
 <nav className='nav'>
+            <h1>LOGO</h1>
         <ul className='list'>
-          <li>
+          {/* <li>
             <Link style={{marginRight: '200px'}} to="/">Home</Link>
           </li>
           <li>
@@ -15,10 +16,23 @@ const Head = () => {
           </li>
           <li>
             <Link style={{marginRight: '200px'}} to="/contact">Contact</Link>
-          </li>
+          </li> */}
+            <div className='home'>
+            <li>Home</li>
+            </div>
+
+            <div className='about'>
+            <li>About</li>
+            </div>
+
+              <div className='contact'>
+              <li>Contact</li>
+              </div>
+              
+
         </ul>
       </nav>
-      <input type='text' placeholder='Search Products'/>
+      <input className='input' type='text' placeholder='Search Products'/>
       <button>Search</button>
       
     </div>

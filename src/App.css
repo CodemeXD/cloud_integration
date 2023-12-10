@@ -48,8 +48,27 @@
   justify-content: space-evenly;
 } 
 
+.home{
+  margin-left: 5px;
+}
+
+.contact{
+  margin-left: 200px;
+}
+
+.about{
+  margin-left: 200px;
+}
+
+.input{
+  margin-left: 200px;
+}
+
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmF7uZlkhaX9TEcvn5TQETuay9pVr9DXj-Pg&usqp=CAU */
+/*https://thumbs.dreamstime.com/z/fashion-clothing-store-21951761.jpg */
 .grid{
-  background-image: url('https://thumbs.dreamstime.com/z/fashion-clothing-store-21951761.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmF7uZlkhaX9TEcvn5TQETuay9pVr9DXj-Pg&usqp=CAU');
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -79,11 +98,12 @@ img{
 }
 
 .butt1{
-  background-color: green;
+  background-color: rgb(62, 49, 5);
   color: whitesmoke;
   height: 50px;
   margin-right: 5px;
-  border: limegreen;
+  margin-top: 50px;
+  border: maroon;
   border-radius: 5px;
   font-weight: bold;
   padding: 10px 5px;
@@ -100,8 +120,8 @@ img{
 }
 
 .butt1:hover{
-  background-color: blue;
-  color: whitesmoke;
+  background-color: rgb(3, 53, 17);
+  color: rgb(226, 232, 226);
   font-weight: bold;
 }
 

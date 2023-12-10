@@ -1,15 +1,16 @@
 import React from 'react';
+import { Placeholder } from 'react-bootstrap';
 
 
 const Header = () => {
   function headerTopic () {
-    return 'Fashion'
+    return React.createElement('input', null)
   }
 
   
   return (
     <div>
-  {/* <h1><b>{headerTopic()}</b></h1> */}
+  {/* {headerTopic()} */}
   <div className='grid'>
   <div className='grid2'>
 <div className='flex'>
@@ -44,7 +45,7 @@ Password: <input type='password' placeholder='New password'/><br/><br/>
 <p><b>Affordable trending designers</b></p>
 <p><b>See direction below</b></p> */}
 <button className='butt1'>Browse products</button>
-<button className='butt2'>Signup for our newsletter</button>
+{/* <button className='butt2'>Signup for our newsletter</button> */}
 </div>
 
 <div style={{width: '20%', height: '350px', backgroundColor: 'whitesmoke', borderRadius: '15px 45px'}}>
